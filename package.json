@@ -1,0 +1,23 @@
+{
+  "name": "protractorcoforgelearning",
+  "version": "1.0.0",
+  "description": "learning automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "demo"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.18.1",
+    "jasmine": "^3.7.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "^7.0.0"
+  },
+  "keywords": [
+    "testdemo"
+  ],
+  "author": "Rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
