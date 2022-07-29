@@ -23,7 +23,7 @@ afterAll(function(){
 })
 
 
-    it('add test', function(){
+    it('add test first', function(){
 
 
         element(by.model('first')).sendKeys("11011")
@@ -37,7 +37,7 @@ afterAll(function(){
     })
 
 
-    it('add test failure', function(){
+    it('add test second', function(){
 
 
         element(by.model('first')).sendKeys("11011")
@@ -46,11 +46,11 @@ afterAll(function(){
 
         //validation step
         let actualResult = $('h2.ng-binding').getText()
-        expect(actualResult).toEqual('88089')
+        expect(actualResult).toEqual('88088')
 
     })
 
-    it('add test failure', function(){
+    it('add test third', function(){
 
 
         element(by.model('first')).sendKeys("22022")
@@ -63,7 +63,7 @@ afterAll(function(){
 
     })
 
-    xit('add test failure', function(){
+    it('add test fourth', function(){
 
 
         element(by.model('first')).sendKeys("33033")
